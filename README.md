@@ -29,6 +29,6 @@ It only needs to download ~2MB from Github, although it could be slow to downloa
 
 ## Credits
 
-This bastion is based on (Alpine)[!https://hub.docker.com/_/alpine/] Version 3.2.
+This bastion is based on [Alpine](!https://hub.docker.com/_/alpine/) Version 3.2.
 
-Security harden script is modified based on (this)[!https://github.com/gliderlabs/docker-alpine/issues/56#issuecomment-125777140]
+Security harden script is modified based on [this](!https://github.com/gliderlabs/docker-alpine/issues/56#issuecomment-125777140)
