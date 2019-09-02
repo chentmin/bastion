@@ -2,7 +2,9 @@
 
 ## Usage
 
-Create a `authorized_keys` file with all public keys that can connect to this bastion.
+Create a `authorized_keys` file with all public keys that can connect to this bastion. Make the file publicly readable or the user in the docker will not have the permission to read it.
+
+	chmod a+r authorized_keys
 
 Then run the following command to start the bastion. 
 
