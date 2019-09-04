@@ -10,7 +10,7 @@ Then run the following command to start the bastion.
 
 	docker run --name bastion -d --restart=always -v $(pwd)/authorized_keys:/home/dev/.ssh/authorized_keys:ro -p 9022:9022 chentm/bastion
 
-To connect through the bastion
+To connect through the bastion, first add your key to forward agent: `ssh-add` and use `ssh-add -L` to
 
 	ssh -A -t -p 9022 dev@bastion.address ssh -t whatever@address.to.connect
 
